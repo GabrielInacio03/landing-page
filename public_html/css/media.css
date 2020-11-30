@@ -1,0 +1,124 @@
+/*=================== IPAD e IPAD pro*/
+@media (min-width: 700px){
+
+    /*FORMULARIO*/
+    .destaque-forms h3{
+        font-size: 2.5rem;
+        margin-bottom: 2%;
+    }
+    .destaque-forms h4{
+        font-size: 1.8rem;
+        margin-bottom: 4%;
+    
+    }
+    label{
+        font-size: 1.8rem;
+    }
+    span{
+        font-size: 1.5rem;
+    }
+    input[type="submit"]{
+        font-size: 2.8rem;
+    }
+
+    /*ASIDE*/
+    .lateral div{
+        width: 25%;
+        height: auto;
+        text-align: center;
+    }
+    .lateral div h3{
+        font-size: 2rem;
+    }
+    .lateral div p{
+        font-size: 1.8rem;
+    }
+}
+@media (min-width: 1024px){
+
+    /*img principal & Formulário*/
+    .destaque-img{
+        position: relative;
+        width: 40%;
+        height: auto;
+    }
+    .destaque-img h1{
+        position: absolute;
+        font-size: 2.8rem;
+        top: -7rem;
+    }
+    .destaque-img h2{
+        position: absolute;
+        font-size: 1.8rem;
+    }
+    .destaque-img img{
+        width: 90%;
+        margin-top: 40%;
+    }
+    .destaque-forms{
+        width: 50%;
+        padding: 1%;
+    }
+    input[type="submit"]{
+        font-size: 1.5rem;
+    }
+
+}
+
+/*LAPTOP*/
+@media (min-width: 1440px){
+    .destaque-img h1{
+        position: absolute;
+        font-size: 2.8rem;
+        top: -10rem;
+    }
+    .destaque-img h2{
+        position: absolute;
+        font-size: 1.8rem;
+    }
+    .destaque-img img{
+        width: 90%;
+        margin-top: 30%;
+    }
+
+    .destaque-forms{
+        width: 50%;
+        padding: 1%;
+    }
+    
+    /*ASIDE*/
+    .lateral div{
+        width: 25%;
+        margin-bottom: 15%;
+        margin-top: 5%; 
+    }
+    input[type="submit"]{
+        font-size: 1.8rem;
+    }
+    .footer p{
+        font-size: 2rem;
+    }
+}
+
+/*DESKTOP*/
+@media (min-width: 1680px){
+
+    .destaque-img h1{
+        position: absolute;
+        font-size: 2.8rem;
+        top: -4rem;
+    }
+    
+    .destaque-img h2{
+        position: absolute;
+        font-size: 1.8rem;
+        top: 4.5rem;
+    }
+    .destaque-img img{
+        width: 90%;
+        margin-top: 35%;
+    }
+    .footer p{
+        font-size: 2rem;
+    }
+}
